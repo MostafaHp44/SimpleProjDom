@@ -1,0 +1,62 @@
+*
+{
+margin: 0%;
+scroll-behavior: smooth;
+box-sizing: border-box;
+
+}
+body
+{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+    background-color: #e3efee;
+    font-family: 'Roboto', sans-serif;
+}
+.navbarr
+{
+background-color: aliceblue;
+text-align: center;
+padding: 30px;
+scroll-behavior: smooth;
+}
+.textnav:hover
+{
+    color: rgb(175, 75, 229);
+}
+.stt
+{
+    background-color:rgb(180, 100, 223) ;
+}
+.tetx
+{
+    border-bottom: 1px black solid;
+    padding: 10px;
+
+}
+.allcards
+{
+    display: flex;
+
+}
+.card1
+{
+    border: 1px black solid;
+    padding: 30px;
+    margin: 28px;
+}
+.imge
+{
+    width: 116px;
+    height: 118px;
+}
+.com
+{
+    font-size: 12px;
+    padding: 10px;
+}
+.textcom:hover
+{
+    color: rgb(99, 18, 142);
+}
