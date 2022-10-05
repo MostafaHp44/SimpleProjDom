@@ -60,3 +60,9 @@ scroll-behavior: smooth;
 {
     color: rgb(99, 18, 142);
 }
+
+.hideprice
+{
+    background-color: black;
+    color: antiquewhite;
+}
