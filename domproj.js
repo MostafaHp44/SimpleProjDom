@@ -1,21 +1,22 @@
 let val=0
 const moolike =document.getElementById("like")
-let mooprice  =document.getElementById("price")
+let mooprice  =document.getElementById("price").innerHTML
+let total =250;
 
 function additem()
 {
-    val+=1;
+ val+=1;
  document.getElementById("numitem").innerHTML=val;
- mooprice*=val;
- document.getElementById("price").innerHTML=mooprice;
-
+ document.getElementById("price").innerHTML=val*total
  
 }
 
 function delitem()
 {
-    val=0
+ val=0
  document.getElementById("numitem").innerHTML=val;
+ document.getElementById("price").innerHTML=val*total
+
 
  
 }
@@ -26,9 +27,8 @@ function decitem()
     {
         val-=1
         document.getElementById("numitem").innerHTML=val;
-        document.getElementById("price").innerHTML=val*mooprice
-
-        
+        document.getElementById("price").innerHTML=val*total
+   
     }
    
 }
@@ -43,3 +43,6 @@ moolike.addEventListener('click', function()
     this.style.backgroundColor = 'red';
   }      
 });
+
+
+
